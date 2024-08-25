@@ -1,0 +1,196 @@
+/*App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&amp;display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #000000, #222222);
+}
+
+.portfolio-container {
+    color: rgb(193, 193, 193);
+    padding: 20px;
+    max-width: 800px;
+    margin-left: 60px;
+    
+    padding: 20px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    background-image: url('https://image.lexica.art/full_jpg/19f280a2-2b97-4be2-b782-1fd5c70b84f4');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px #3498db;
+    border-radius: 5%;
+    border: 5px solid #3498db;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.header-content {
+    flex: 1;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+.icon {
+    color:#3498db;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.skillset {
+    color: #3498db;
+}
+
+.pop-effect {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.pop-effect:hover {
+    transform: scale(1.05);
+}
+
+.about {
+    margin-top: 20px;
+}
+
+.about h1 {
+    margin-left: 50px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+.about p {
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.projects {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.projects h1 {
+    
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+.project-tiles h2 {
+    margin-left: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+
+.project-tiles p {
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.skillset {
+    margin-top: 20px;
+    display:block;
+}
+
+.skillset h1 {
+    margin-left: 50px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.contact {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .header h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: left;
+    gap: 10px;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #3498db;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+  }
+  
+  .social-item {
+    text-align: left;
+  }
+  
+  .social-item a {
+    color: #000;
+    text-decoration: none;
+    align-items: left;
+    
+  }
+  
+  .social-item p {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+  
